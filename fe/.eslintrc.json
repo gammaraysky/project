@@ -1,0 +1,7 @@
+{
+    "extends": ["next", "next/core-web-vitals", "prettier"],
+    "rules": {
+        "complexity": ["warn", 16],
+        "max-lines": ["warn", 300]
+    }
+}

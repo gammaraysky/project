@@ -1,0 +1,11 @@
+repos:
+    - repo: https://github.com/astral-sh/ruff-pre-commit
+      rev: v0.4.1
+      hooks:
+          - id: ruff
+            name: Ruff Linter (Backend)
+            entry: ruff check .
+            language: system
+            types: [python]
+            working_directory: backend
+            args: ["--fix"]
